@@ -11,6 +11,12 @@ app.get("/", (req, res) => {
   res.render("index"); 
 });
 
+app.get("/", (req, res) => {
+  res.render("script");
+});
+
+
+
 
 
 axios.get('https://restcountries.eu/rest/v2/name/poland')
