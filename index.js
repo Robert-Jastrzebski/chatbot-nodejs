@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.render("index"); 
 });
 
-
+app.get('/favicon.ico', (req, res) => res.status(204));
 
 axios.get('https://restcountries.eu/rest/v2/name/poland')
 .then((response) => {
