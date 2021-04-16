@@ -10,34 +10,11 @@
  }
 
 
- /* ::selection {
-     color: #fff;
-     background: #027392;
- }
-
- ::-webkit-scrollbar {
-     width: 3px;
-     border-radius: 25px;
- }
-
- ::-webkit-scrollbar-track {
-     background: #f1f1f1;
- }
-
- ::-webkit-scrollbar-thumb {
-     background: #ddd;
- }
-
- ::-webkit-scrollbar-thumb:hover {
-     background: #ccc;
- } */
 
  .container {
      display: flex;
      justify-content: center;
      margin-top: 100px;
-
-
  }
 
  .wrapper {
@@ -46,9 +23,6 @@
      border-radius: 5px;
      border: 1px solid lightgrey;
      border-top: 0px;
-
-
-
  }
 
  .wrapper .title {
