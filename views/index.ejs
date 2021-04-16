@@ -48,6 +48,14 @@
       $("#data").val('');
       });
       })
+      $(document).on('keypress',function(e) {
+      if(e.which == 13) {
+         $value = $("#data").val();
+         $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>' + $value + '</p></div></div>';
+         $(".form").append($msg);
+         $("#data").val('');
+      }
+      });
     </script>
   </body>
 </html>
