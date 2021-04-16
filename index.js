@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.render("index"); 
 });
 
-app.get('/favicon.ico', (req, res) => res.status(204));
+
 
 axios.get('https://restcountries.eu/rest/v2/name/poland')
 .then((response) => {
@@ -22,4 +22,6 @@ axios.get('https://restcountries.eu/rest/v2/name/poland')
 
 
 
-app.listen(port)
+app.listen(port, () => {
+    console.log("server started on port 3000");
+});
