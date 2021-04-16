@@ -22,6 +22,4 @@ axios.get('https://restcountries.eu/rest/v2/name/poland')
 
 
 
-app.listen(3000, () => {
-    console.log("server started on port 3000");
-});
+app.listen(port)
