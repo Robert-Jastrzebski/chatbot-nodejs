@@ -12,11 +12,11 @@ app.get("/", (req, res) => {
 });
 
 
-axios.get('https://restcountries.eu/rest/v2/name/poland')
-.then((response) => {
-  console.log(response.data)
-})
-.catch(console.error)
+// axios.get('https://restcountries.eu/rest/v2/name/poland')
+// .then((response) => {
+//   console.log(response.data)
+// })
+// .catch(console.error)
 
 
 
